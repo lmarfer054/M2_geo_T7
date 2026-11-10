@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvux20lh-6iuknjdvy">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<title>3.4. Perpendicularidad en el espacio | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/form/form.js"></script><link rel="stylesheet" href="../idevices/form/form.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvux20lh-6iuknjdvy" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Producto escalar. Aplicaciones</a>
+</li>
+<li> <a href="../html/1-modulo-de-un-vector-.html" class="daddy">1. Módulo de un vector    </a>
+<ul class="other-section">
+<li> <a href="../html/11-definicion-y-propiedades.html" class="no-ch">1.1. Definición y propiedades</a>
+</li>
+<li> <a href="../html/12-vector-unitario-.html" class="no-ch">1.2. Vector unitario </a>
+</li>
+<li> <a href="../html/13-actividades.html" class="no-ch">1.3. Actividades</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-producto-escalar.html" class="daddy">2. Producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/21-definicion-general-y-geometrica-.html" class="no-ch">2.1. Definición general y geométrica   </a>
+</li>
+<li> <a href="../html/22-vectores-ortogonales-y-ortonormales.html" class="no-ch">2.2. Vectores ortogonales y ortonormales</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/3-aplicaciones-del-producto-escalar.html" class="daddy">3. Aplicaciones del producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/31-angulo-comprendido-entre-dos-rectas.html" class="no-ch">3.1. Ángulo comprendido entre dos rectas</a>
+</li>
+<li> <a href="../html/32-angulo-comprendido-entre-dos-planos.html" class="no-ch">3.2. Ángulo comprendido entre dos planos</a>
+</li>
+<li> <a href="../html/33-angulo-entre-una-recta-y-un-plano.html" class="no-ch">3.3. Ángulo entre una recta y un plano</a>
+</li>
+<li class="active"> <a href="../html/34-perpendicularidad-en-el-espacio.html" class="active no-ch">3.4. Perpendicularidad en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvux20lh-6iuknjdvy" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Producto escalar. Aplicaciones</p></div>
+<div class="page-header"><h1 class="page-title">3.4. Perpendicularidad en el espacio</h1></div>
+</header><div id="page-content-page-mvux20lh-6iuknjdvy" class="page-content">
+<article id="block-mvux20lo-ucpkl94vr" class="box no-header sin-titulo">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20lo-ro0dewvct" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20lo-ro0dewvct&quot;}">
+<div class="exe-text-template">
+    <p style="text-align: justify;">Nos vamos a ocupar ahora del caso particular en el que nos encontramos con rectas o planos perpendiculares. en este caso, el ángulo que forman los dos elementos es de \(90\)º. El coseno de \(90\)º es \(0\), por lo que las operaciones se simplifican enormemente.</p>
+<p style="text-align: justify;">En alguno de los ejercicios de apartados anteriores has observado que existen infinitas rectas que forman un ángulo de \(60\)º con un plano o puedes comprobar que existen infinitos planos que forman un ángulo de \(60\)º con otro plano. En la imagen inferior puedes observar que existen infinitos planos perpendiculares a otro dado y que pasen por un determinado punto pero, dada una recta, ¿Cuántas rectas perpendiculares a ella y que pasen por un punto existen? o dado un plano, ¿Cuántos planos perpendiculares a dicho plano y que pasen por dos puntos determinados existen? La respuesta a esta y otras preguntas la encontrarás resolviendo los ejercicios que vienen a continuación.<img src="../content/resources/familia-de-planos-perpendiculares-a.png" width="35%" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p> </p>
+</div>
+</div>
+</div>
+</article><article id="block-mvy2rcse-buofpfjyq" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793552348029-k32g7e2oc" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793552348029-k32g7e2oc&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p style="text-align: justify;">Un diseñador gráfico ha ideado la máquina que observas en la imagen. Esta imagen va a ser utilizada en una película en 3D. Por este motivo, los programadores informáticos necesitan llevar el modelo gráfico a un modelo matemático con el que poder trabajar posteriormente para dotarlo de movimiento. En la pala que aparece a la derecha del diseño han observado que, debido a la regularidad de sus paredes, la pueden adaptar a dos planos perpendiculares. El primero de los planos lo han determinado, adaptándose a la ecuación \( \pi \equiv 3x-2y+z-3=0\). Del segundo plano, dado que tiene que coincidir con otra pieza, saben que debe pasar por los puntos \(P=(2,-5,4)\) y \(Q=(-1,-3,6)\). ¿Puedes ayudarles a determinar el segundo de los planos?</p>
+<p><img src="../content/resources/desing.jpg" height="341" width="426" style="display: block; margin-left: auto; margin-right: auto;" /></p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p><img src="../content/resources/diagrama-tridimensional-de-planos-y-vectores.jpg" width="50%" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<!-- Introducción -->
+<div style="background-color: #f0f4ff; border-left: 5px solid #000dff; padding: 15px 20px; border-radius: 4px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<p style="margin-top: 0; margin-bottom: 0; color: #1e3a8a; font-size: 1.05em;">Para determinar la ecuación de un plano necesitamos dos vectores directores y un punto o bien, el vector normal y un punto. Lo vamos a hacer de las dos formas:</p>
+</div>
+<!-- Método 1 -->
+<h4 style="color: #000899; border-bottom: 2px solid #99aaff; padding-bottom: 8px; margin-top: 0;">1. Con dos vectores directores y un punto</h4>
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #2563eb; padding: 15px; border-radius: 0 6px 6px 0; margin-bottom: 25px; color: #1e293b;">
+<p style="margin-top: 0;">Dado que el plano que buscamos es perpendicular al plano \(\pi \equiv 3x-2y+z=3\), el vector normal de este plano es un vector director del plano que buscamos. Así, un vector director sería:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \vec{v} = (3, -2, 1) \]</div>
+<p>El otro vector director sería \(\vec{u} = \overrightarrow{PQ} = (-3, 2, 2)\). Luego la ecuación del plano sería:</p>
+<div style="text-align: center; margin-bottom: 0; font-size: 1.1em;">\[ \pi' \equiv (x,y,z) = (2,-5,4) + t(3,-2,1) + h(-3,2,2) \]</div>
+</div>
+<!-- Método 2 -->
+<h4 style="color: #000899; border-bottom: 2px solid #99aaff; padding-bottom: 8px; margin-top: 0;">2. Con un vector normal y un punto</h4>
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #2563eb; padding: 15px; border-radius: 0 6px 6px 0; margin-bottom: 25px; color: #1e293b;">
+<p style="margin-top: 0;">Calculamos el vector normal del plano como producto vectorial de los dos vectores del plano (ya calculados en 1):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \vec{n} = \vec{u} \times \vec{v} = (2, 3, 0) \]</div>
+<p>Luego la ecuación del plano \(ax+by+cz+d=0\) pasa a ser \(2x+3y+d=0\).</p>
+<p>Averiguamos \(d\) sustituyendo cualquiera de los dos puntos que conocemos del plano, por ejemplo \(P(2,-5,4)\):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ 2 \cdot 2 + 3 \cdot (-5) + d = 0 \implies 4 - 15 + d = 0 \implies d = 11 \]</div>
+<p style="margin-bottom: 0;">Con lo que el plano es <strong>\(\pi' \equiv 2x+3y+11=0\)</strong>.</p>
+</div>
+<!-- Método alternativo -->
+<h4 style="color: #000899; border-bottom: 2px solid #99aaff; padding-bottom: 8px; margin-top: 0;">Método alternativo (Resolución de sistema)</h4>
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #2563eb; padding: 15px; border-radius: 0 6px 6px 0; margin-bottom: 15px; color: #1e293b;">
+<p style="margin-top: 0;">Otra forma, un poco más larga y con mayor posibilidad de error pero que utiliza directamente los datos es la siguiente:</p>
+<p>Si el plano que buscamos tiene la forma \(\pi' \equiv ax+by+cz+d = 0\), dado que es perpendicular al plano \(\pi\), entonces, sus vectores normales forman un ángulo de \(90\)º, es decir:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ (a,b,c) \cdot (3,-2,1) = 0 \implies 3a - 2b + c = 0 \]</div>
+<p>Como pasa por el punto \(P\), entonces \(P\) debe verificar la ecuación: \(2a - 5b + 4c + d = 0\)</p>
+<p>Como pasa por el punto \(Q\), entonces \(Q\) debe verificar la ecuación: \(-a - 3b + 6c + d = 0\)</p>
+<p>Así, despejamos y calculamos resolviendo el sistema:</p>
+<div style="overflow-x: auto; margin-bottom: 15px; text-align: center;">\[ \begin{cases} 3a - 2b + c = 0 \\ 2a - 5b + 4c + d = 0 \\ -a - 3b + 6c + d = 0 \end{cases} \implies \begin{cases} c = -3a + 2b \\ 2a - 5b - 12a + 8b + d = 0 \\ -a - 3b - 18a + 12b + d = 0 \end{cases} \implies \begin{cases} c = -3a + 2b \\ -10a + 3b + d = 0 \\ -19a + 9b + d = 0 \end{cases} \] <br />\[ \implies \begin{cases} c = -3a + 2b \\ d = 10a - 3b \\ -19a + 9b + d = 0 \end{cases} \implies \begin{cases} c = -3a + 2b \\ d = 10a - 3b \\ -19a + 9b + 10a - 3b = 0 \end{cases} \implies \begin{cases} c = -3a + 2b \\ d = 10a - 3b \\ -9a + 6b = 0 \implies b = \dfrac{9}{6}a = \dfrac{3}{2}a \end{cases} \] <br />\[ \implies \begin{cases} c = 0 \\ d = \dfrac{11}{2}a \\ b = \dfrac{3}{2}a \end{cases} \quad \text{haciendo } a = 2 \implies \begin{cases} c = 0 \\ d = 11 \\ b = 3 \end{cases} \]</div>
+</div>
+<!-- Solución final -->
+<div style="background-color: #f0f4ff; border: 2px solid #000dff; padding: 15px; border-radius: 8px; font-size: 1.05em; text-align: center; color: #1e3a8a; margin-top: 20px;"><strong>Conclusión:</strong> la ecuación del plano es <strong>\(\pmb{\pi' \equiv 2x + 3y + 11 = 0}\)</strong>.</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvy43rzd-m0n3fblms" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793554607209-nhx37fnai" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793554607209-nhx37fnai&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Tenemos la recta \( r \), recta que pasa por el punto \( P = (2, 3, -4) \) y que tiene como vector director \( \vec{u} = (2, 1, -1) \). Calcula la recta \( s \), que la corte perpendicularmente y que pase por el punto \( Q = (-2, 5, 1) \).</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><!-- Enunciado -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; align-items: stretch; justify-content: center; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; justify-content: center;">
+<div style="background-color: #f1f5f9; border-left: 4px solid #64748b; padding: 18px; border-radius: 0 4px 4px 0;">
+<p style="margin: 0 0 10px 0; font-weight: bold; color: #334155; font-size: 1.05em;">Para resolver este ejercicio vamos a seguir el siguiente camino:</p>
+<ol style="margin: 0; padding-left: 20px; color: #475569;">
+<li style="margin-bottom: 8px;">Calculamos la ecuación paramétrica de la recta \( r \).</li>
+<li style="margin-bottom: 8px;">Calculamos un punto genérico \( M \) de la recta \( r \).</li>
+<li style="margin-bottom: 8px;">Calculamos el vector \( \overrightarrow{QM} \) y le imponemos que sea perpendicular al vector \( \vec{u} \).</li>
+<li>La recta que buscamos es la que pasa por el punto \( Q \) y tiene como vector director el vector \( \overrightarrow{QM} \).</li>
+</ol>
+</div>
+</div>
+<!-- Columna del Gráfico SVG 3D interactivo y puro -->
+<div style="flex: 1 1 300px; max-width: 400px; display: flex; align-items: center; justify-content: center;">
+<div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); width: 100%; padding: 15px;"><svg viewbox="0 0 200 160" width="100%" height="auto" style="display: block; margin: 0 auto; max-width: 320px;"> <defs> <!-- Plano base para perspectiva isométrica --> <polygon id="plano-base" points="20,110 120,60 180,90 80,140" fill="#000dff" opacity="0.12" stroke="#000899" stroke-width="0.5"></polygon> <marker id="arrow-green" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#15803d"></path> </marker> <marker id="arrow-blue" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0284c7"></path> </marker> </defs> <!-- Dibujar plano base --> <use href="#plano-base"></use> <!-- Recta r (Vertical, atravesando el plano en M) --> <line x1="100" y1="10" x2="100" y2="150" stroke="#ea580c" stroke-width="2.5"></line> <text x="106" y="25" font-family="sans-serif" font-size="10" fill="#ea580c" font-weight="bold">r</text> <!-- Punto P sobre recta r --> <circle cx="100" cy="45" r="3" fill="#1e293b"></circle> <text x="86" y="48" font-family="sans-serif" font-size="10" fill="#1e293b" font-weight="bold">P</text> <!-- Vector u de la recta r (Verde) --> <line x1="100" y1="45" x2="100" y2="80" stroke="#15803d" stroke-width="2" marker-end="url(#arrow-green)"></line> <g transform="translate(108, 65)"> <text x="0" y="5" font-family="sans-serif" font-size="10" fill="#15803d" font-weight="bold">u</text> <path d="M 0,-4 L 6,-4 L 3,-6" fill="none" stroke="#15803d" stroke-width="0.8"></path> </g> <!-- Recta s perpendicular (cruzando el plano horizontalmente) --> <line x1="30" y1="119" x2="170" y2="91" stroke="#dc2626" stroke-width="2.5"></line> <text x="30" y="132" font-family="sans-serif" font-size="10" fill="#dc2626" font-weight="bold">s</text> <!-- Punto M (Intersección en r) --> <circle cx="100" cy="105" r="3" fill="#1e293b"></circle> <text x="86" y="117" font-family="sans-serif" font-size="10" fill="#1e293b" font-weight="bold">M</text> <!-- Punto Q (Exterior, sobre s) --> <circle cx="150" cy="95" r="3" fill="#1e293b"></circle> <text x="156" y="93" font-family="sans-serif" font-size="10" fill="#1e293b" font-weight="bold">Q</text> <!-- Vector QM (Desde Q hacia M - Azul) --> <line x1="150" y1="95" x2="106" y2="103.8" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"></line> <g transform="translate(118, 88)"> <text x="0" y="5" font-family="sans-serif" font-size="10" fill="#0284c7" font-weight="bold">QM</text> <path d="M 0,-4 L 16,-4 L 13,-6" fill="none" stroke="#0284c7" stroke-width="0.8"></path> </g> <!-- Marca de perpendicularidad --> <path d="M 100,97 L 108,95.4 L 108,103.4" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linejoin="round"></path> </svg>
+<div style="text-align: center; margin-top: 8px; font-size: 0.85em; color: #64748b;">Esquema de las rectas \(r\) y \(s\)</div>
+</div>
+</div>
+</div>
+<!-- Resolución paso a paso (Visible por defecto, sin ocultar) -->
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #000dff; padding: 25px; border-radius: 0 6px 6px 0; color: #1e293b;">
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">1. Ecuación paramétrica de \( r \):</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Recta que pasa por el punto \( P = (2, 3, -4) \) y tiene como vector director \( \vec{u} = (2, 1, -1) \). La ecuación de la recta es:</p>
+<div style="text-align: center; margin-bottom: 0;">\[ r \equiv \begin{cases} x = 2 + 2\lambda \\ y = 3 + \lambda \\ z = -4 - \lambda \end{cases} \]</div>
+</div>
+<!-- Paso 2 -->
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">2. Punto genérico \( M \):</h5>
+<p style="margin-bottom: 0; margin-top: 0;">Un punto genérico de la recta sería: <strong>\( M = (2 + 2\lambda, 3 + \lambda, -4 - \lambda) \)</strong>.</p>
+</div>
+<!-- Paso 3 -->
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">3. Perpendicularidad del vector \( \overrightarrow{QM} \):</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">El vector \( \overrightarrow{QM} \) se calcula restando las coordenadas de \( Q(-2, 5, 1) \) a las de \( M \):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \overrightarrow{QM} = (2 + 2\lambda - (-2), 3 + \lambda - 5, -4 - \lambda - 1) = (4 + 2\lambda, -2 + \lambda, -5 - \lambda) \]</div>
+<p style="margin-bottom: 10px;">Ahora debemos imponer que sea perpendicular al vector \( \vec{u} \), o lo que es lo mismo, que su producto escalar sea cero (\( \overrightarrow{QM} \bullet \vec{u} = 0 \)):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ (4 + 2\lambda, -2 + \lambda, -5 - \lambda) \cdot (2, 1, -1) = 0 \] \[ 2(4 + 2\lambda) + 1(-2 + \lambda) - 1(-5 - \lambda) = 0 \] \[ 8 + 4\lambda - 2 + \lambda + 5 + \lambda = 0 \] \[ 6\lambda + 11 = 0 \implies 6\lambda = -11 \implies \lambda = -\dfrac{11}{6} \]</div>
+<p style="margin-bottom: 10px;">Por tanto, sustituyendo \( \lambda \), calculamos el vector director de la recta \( s \):</p>
+<div style="overflow-x: auto; text-align: center; margin-bottom: 15px;">\[ \overrightarrow{QM} = \left( 4 + 2\left(-\dfrac{11}{6}\right), -2 + \left(-\dfrac{11}{6}\right), -5 - \left(-\dfrac{11}{6}\right) \right) = \left( \dfrac{24-22}{6}, \dfrac{-12-11}{6}, \dfrac{-30+11}{6} \right) = \left( \dfrac{2}{6}, -\dfrac{23}{6}, -\dfrac{19}{6} \right) = \left( \dfrac{1}{3}, -\dfrac{23}{6}, -\dfrac{19}{6} \right) \]</div>
+<p style="margin-bottom: 0;">Así, un vector director de la recta \( s \) sería el vector \( \overrightarrow{QM} \).</p>
+</div>
+<!-- Paso 4 -->
+<div style="margin-bottom: 0;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">4. Ecuación de la recta buscada:</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">La recta \( s \) que buscamos pasa por el punto \( Q(-2, 5, 1) \) y tiene como vector director el vector \( \overrightarrow{QM} \). Su ecuación continua es:</p>
+<div style="text-align: center; margin-bottom: 0;">\[ s \equiv \dfrac{x+2}{1/3} = \dfrac{y-5}{-23/6} = \dfrac{z-1}{-19/6} \implies \text{(multiplicando por 6)} \implies s \equiv \dfrac{x+2}{2} = \dfrac{y-5}{-23} = \dfrac{z-1}{-19} \]</div>
+</div>
+</div>
+<div style="background-color: #f0f4ff; border: 2px solid #000dff; padding: 15px; border-radius: 8px; font-size: 1.05em; text-align: center; color: #1e3a8a; margin-top: 20px;"><strong>Solución: \(\pmb{s \equiv \dfrac{x+2}{2} = \dfrac{y-5}{-23} = \dfrac{z-1}{-19}}\)</strong></div>
+<p><br /></p></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvux20lp-gsuzbibry" class="box caja-morada boton-morado">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_formulario.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Selecciona</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20lp-asvhfu270" class="idevice_node form" data-idevice-path="../idevices/form/" data-idevice-type="form" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20lp-asvhfu270&quot;,&quot;evaluation&quot;:false,&quot;evaluationID&quot;:&quot;&quot;,&quot;passScoreMode&quot;:&quot;global&quot;,&quot;passScoreCustom&quot;:5,&quot;repeatActivity&quot;:true,&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;weighted&quot;:100,&quot;msgs&quot;:{&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgYouScore&quot;:&quot;Tu puntuación es&quot;,&quot;msgEndGameScore&quot;:&quot;Comience la partida antes de guardar la puntuación.&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgWeight&quot;:&quot;Peso&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Solo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Solo puede guardar una vez&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgUncompletedActivity&quot;:&quot;Actividad no completada&quot;,&quot;msgSuccessfulActivity&quot;:&quot;Actividad superada. Puntuación: %s&quot;,&quot;msgUnsuccessfulActivity&quot;:&quot;Actividad no superada. Puntuación: %s&quot;,&quot;msgPassScore&quot;:&quot;Puntuación mínima necesaria para aprobar esta actividad: %s&quot;,&quot;msgTypeGame&quot;:&quot;Formulario&quot;,&quot;msgStartGame&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTime&quot;:&quot;Tiempo por pregunta&quot;,&quot;msgSaveScore&quot;:&quot;Guardar la puntuación&quot;,&quot;msgResult&quot;:&quot;Resultado&quot;,&quot;msgCheck&quot;:&quot;Comprobar&quot;,&quot;msgReset&quot;:&quot;Reiniciar&quot;,&quot;msgShowAnswers&quot;:&quot;Mostrar respuestas&quot;,&quot;msgTestResultPass&quot;:&quot;¡Felicidades! Has pasado la prueba&quot;,&quot;msgTestResultNotPass&quot;:&quot;Lo siento. Has fallado la prueba&quot;,&quot;msgTrueFalseHelp&quot;:&quot;Di si la afirmación es verdadera o falsa&quot;,&quot;msgDropdownHelp&quot;:&quot;Elige la respuesta correcta entre las opciones propuestas&quot;,&quot;msgFillHelp&quot;:&quot;Rellena los espacios en blanco con la palabra apropiada&quot;,&quot;msgSingleSelectionHelp&quot;:&quot;Opción múltiple con solo una respuesta correcta&quot;,&quot;msgMultipleSelectionHelp&quot;:&quot;Opción múltiple con varias respuestas correctas&quot;,&quot;msgPlayStart&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTrue&quot;:&quot;Verdadero&quot;,&quot;msgFalse&quot;:&quot;Falso&quot;,&quot;msgNext&quot;:&quot;Siguiente&quot;,&quot;msgPrevious&quot;:&quot;Anterior&quot;,&quot;msgSuggestion&quot;:&quot;Sugerencia&quot;,&quot;msgOk&quot;:&quot;Correcto&quot;,&quot;msgKO&quot;:&quot;Incorrecto&quot;,&quot;msgHide&quot;:&quot;Ocultar&quot;},&quot;id&quot;:&quot;idevice-mvux20lp-asvhfu270&quot;,&quot;questionsRandom&quot;:false,&quot;percentageQuestions&quot;:&quot;100&quot;,&quot;time&quot;:&quot;0&quot;,&quot;eXeFormInstructions&quot;:&quot;&lt;p&gt;Consideremos la recta \\(r\\) que pasa por el punto \\(P=(1,3,0)\\) y tiene como vector director el vector \\(\\vec{v}=(2,-1,2)\\).&lt;/p&gt;\n&lt;p&gt;La recta \\(s\\), perpendicular a \\(r\\) y que pasa por el punto \\(Q=(5,2,1)\\) también pasa por el punto:&lt;/p&gt;&quot;,&quot;questionsData&quot;:[{&quot;id&quot;:&quot;1793560673717-A1RF3&quot;,&quot;activityType&quot;:&quot;selection&quot;,&quot;baseText&quot;:&quot;&quot;,&quot;feedbackRight&quot;:&quot;&quot;,&quot;feedbackWrong&quot;:&quot;&quot;,&quot;suggestion&quot;:&quot;Calcula la ecuación de la recta \\(s\\)  y comprueba el punto que la verifica de entre los tres que se proponen.&quot;,&quot;wrongAnswersValue&quot;:&quot;&quot;,&quot;selectionType&quot;:&quot;single&quot;,&quot;answers&quot;:[{&quot;0&quot;:true,&quot;1&quot;:&quot;\\(A=(-9,0,14)\\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(B=(-7,15,21)\\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(A=(-11,3,-17)\\)&quot;}],&quot;answer&quot;:&quot;1&quot;,&quot;capitalization&quot;:false,&quot;strict&quot;:false,&quot;order&quot;:0,&quot;customScore&quot;:1,&quot;time&quot;:0}],&quot;addBtnAnswers&quot;:true,&quot;eXeIdeviceTextAfter&quot;:&quot;&quot;,&quot;showSlider&quot;:false}" data-idevice-template="form.html">
+<div class="exe-form-container">
+  <div class="game-evaluation-ids js-hidden" data-id="idevice-mvux20lp-asvhfu270" data-evaluationb="false" data-evaluationid=""></div>
+            <div id="frmMainContainer-idevice-mvux20lp-asvhfu270" class="form-IDevice" data-id="idevice-mvux20lp-asvhfu270">
+                <div class="form-Data js-hidden">{}</div>
+                <div class="form-instructions"><p>Consideremos la recta \(r\) que pasa por el punto \(P=(1,3,0)\) y tiene como vector director el vector \(\vec{v}=(2,-1,2)\).</p>
+<p>La recta \(s\), perpendicular a \(r\) y que pasa por el punto \(Q=(5,2,1)\) también pasa por el punto:</p></div>
+                <div class="FRMP-GameScoreBoard" style="display:none;">
+                    <div>
+                        <strong><span class="sr-av">Tiempo por pregunta:</span></strong>
+                        <span id="frmPTime-idevice-mvux20lp-asvhfu270">00:00</span>
+                    </div>
+                </div>
+                <div class="FRMP-StartGame" id="frmStartGameDiv-idevice-mvux20lp-asvhfu270" style="display:none;">
+                      <button  id="frmStartGame-idevice-mvux20lp-asvhfu270" type="button" class="btn btn-primary">Pulsa aquí para empezar</button>
+                </div>
+                <div class="form-body" id="frmBody-idevice-mvux20lp-asvhfu270" style="display:block;">
+                    <div class="FRMP-Questions">
+                        <div id="form-questions-idevice-mvux20lp-asvhfu270" > </div>
+                        <div id="frmCover-idevice-mvux20lp-asvhfu270" class="FRMP-Cover"> </div>
+                    </div>
+                    <div id="resultsContainer-idevice-mvux20lp-asvhfu270" class="form-results-container inline">
+                        <div id="form-score-idevice-mvux20lp-asvhfu270" class="score-text">Puntuación.</div>
+                        <div id="form-result-test-idevice-mvux20lp-asvhfu270" class="score-text phrase-score"></div>
+                    </div>
+                    <div class="form-buttons-container inline">
+                        <input id="form-button-check-idevice-mvux20lp-asvhfu270" class="btn btn-primary" type="button" value="Comprobar"
+                            data-id="idevice-mvux20lp-asvhfu270" />
+                        <input id="form-button-reset-idevice-mvux20lp-asvhfu270" type="button" value="Reiniciar"
+                            data-id="idevice-mvux20lp-asvhfu270" class="btn btn-primary"  style="display:none" />
+                        <input id="form-button-show-answers-idevice-mvux20lp-asvhfu270" class="btn btn-primary" type="button" value="Mostrar respuestas"
+                            data-id="idevice-mvux20lp-asvhfu270" style="display: " />
+
+                    </div>
+                </div>
+                <div class="Games-BottonContainer d-flex align-items-center justify-content-end mx-auto p-0 w-100"></div>
+                
+            </div>
+            <div class="questionsMedia" style="display:none"></div>
+            
+</div>
+</div>
+</div>
+</article><article id="block-mvy5h5lr-3yzl3j1sc" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793556911006-axboztzdf" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793556911006-axboztzdf&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p style="text-align: justify;"><br /></p>
+<table border="0" style="width: 14.0306%; float: left;">
+<tbody>
+<tr>
+<td style="width: 100%;"><img src="../content/resources/burj.jpg" width="168" height="252" alt="" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">El Burj Khalifa es un rascacielos que se encuentra situado en el distrito Downtown Burj Khalifa de la ciudad de Dubái, en Emiratos Árabes Unidos. Es la estructura más alta construida por el hombre. La construcción comenzó el 21 de septiembre de 2004, y su inauguración oficial fue el 4 de enero de 2010.<br title="" />Se localiza en la parte central de las costas de Dubái. Para verlo en Google Maps pulsa <a href="https://www.google.es/maps/place/Burj+Khalifa/@25.1963979,55.272071,17z/data=!4m14!1m7!3m6!1s0x3e5f43348a67e24b:0xff45e502e1ceb7e2!2sBurj+Khalifa!8m2!3d25.197197!4d55.2743764!16zL20vMDNjbjB2!3m5!1s0x3e5f43348a67e24b:0xff45e502e1ceb7e2!8m2!3d25.197197!4d55.2743764!16zL20vMDNjbjB2?hl=es&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D">Aquí.</a><br />La fecha original de apertura del edificio iba a ser el 31 de diciembre del 2008, aunque, debido a un retraso en la construcción, su finalización e inauguración se vio retrasada hasta el 4 de enero de 2010. <a href="https://youtu.be/yNfpwdLVZ4c?si=aXmJ9dc6KgUpwff_&amp;t=12" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a></p>
+<p style="text-align: justify;">Para realizar la animación que has visto en el vídeo anterior se ha utilizado un dibujo-maqueta que se ha trazado en un ordenador. Como base de la maqueta se ha utilizado un plano que pasa por tres puntos del espacio \(A=(3,0,0)\), \(B=(2,1,1)\) y \(C=(-2,4,2)\). Sobre dicho plano se ha levantado el edificio utilizando como eje la recta que pasa por el punto \(P=(5,2,8)\). Calcula la ecuación de esa recta y el punto del plano que coincide con el centro del suelo del edificio.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><!-- Enunciado y Resumen -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; align-items: stretch; justify-content: center; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"><!-- Columna de Texto explicativo -->
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 15px;">
+<div>
+<p><br /></p>
+</div>
+<div style="background-color: #f1f5f9; border-left: 4px solid #64748b; padding: 15px; border-radius: 0 4px 4px 0;">
+<p><strong><span style="color: #0066cc;">Para resolver este ejercicio vamos a seguir el siguiente camino:</span></strong></p>
+<ol style="margin: 0; padding-left: 20px; color: #475569;">
+<li style="margin-bottom: 8px;">Calculamos la ecuación del <strong>plano \(\pmb{\pi}\)</strong> que pasa por los tres puntos base \(A\), \(B\) y \(C\).</li>
+<li style="margin-bottom: 8px;">Calculamos la ecuación de la <strong>recta \(\pmb{r}\)</strong>, que es perpendicular al plano \(\pi\) y pasa por el punto superior de la torre \(P(5,2,8)\).</li>
+<li>Hallamos el punto de corte \(Q\) (centro del edificio en el suelo) resolviendo el sistema entre la recta \(r\) y el plano \(\pi\).</li>
+</ol>
+</div>
+</div>
+<!-- Columna del Gráfico SVG 3D interactivo -->
+<div style="flex: 1 1 300px; max-width: 400px; display: flex; align-items: center; justify-content: center;">
+<div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); width: 100%; padding: 15px;"><svg viewbox="0 0 200 180" width="100%" height="auto" style="display: block; margin: 0 auto;"> <defs> <!-- Plano base para efecto 3D --> <polygon id="plano-base" points="20,130 120,80 190,110 90,160" fill="#000dff" opacity="0.15" stroke="#000899" stroke-width="0.5"></polygon> <marker id="arrow-blue" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="4" markerheight="4" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0284c7"></path> </marker> <marker id="arrow-dark" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="4" markerheight="4" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#1e293b"></path> </marker> </defs> <!-- Dibujar plano base --> <use href="#plano-base"></use> <text x="175" y="115" font-family="sans-serif" font-size="10" fill="#000899" font-weight="bold">π</text> <!-- Puntos A, B, C en el plano --> <circle cx="50" cy="120" r="2.5" fill="#1e293b"></circle> <text x="35" y="125" font-family="sans-serif" font-size="8" fill="#1e293b" font-weight="bold">A</text> <circle cx="90" cy="95" r="2.5" fill="#1e293b"></circle> <text x="80" y="90" font-family="sans-serif" font-size="8" fill="#1e293b" font-weight="bold">B</text> <circle cx="140" cy="135" r="2.5" fill="#1e293b"></circle> <text x="145" y="140" font-family="sans-serif" font-size="8" fill="#1e293b" font-weight="bold">C</text> <!-- Vectores directores AB y AC (Grises) --> <line x1="50" y1="120" x2="88" y2="96" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-dark)"></line> <line x1="50" y1="120" x2="137" y2="134" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow-dark)"></line> <!-- Vector normal n_pi desde A --> <line x1="50" y1="120" x2="50" y2="70" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"></line> <text x="55" y="75" font-family="sans-serif" font-size="9" fill="#0284c7" font-weight="bold">nπ</text> <!-- Recta r (Torre) vertical --> <!-- Tramo por debajo del plano (punteado) --> <line x1="110" y1="120" x2="110" y2="170" stroke="#ea580c" stroke-width="2" stroke-dasharray="3,3"></line> <!-- Tramo visible de la recta (rojo/naranja) --> <line x1="110" y1="20" x2="110" y2="120" stroke="#ea580c" stroke-width="2.5"></line> <text x="115" y="30" font-family="sans-serif" font-size="10" fill="#ea580c" font-weight="bold">r</text> <!-- Punto P (cima de la torre) --> <circle cx="110" cy="40" r="3" fill="#1e293b"></circle> <text x="95" y="43" font-family="sans-serif" font-size="9" fill="#1e293b" font-weight="bold">P</text> <!-- Punto Q (Intersección con el plano) --> <circle cx="110" cy="120" r="3" fill="#dc2626"></circle> <text x="95" y="115" font-family="sans-serif" font-size="9" fill="#dc2626" font-weight="bold">Q</text> <!-- Marca de perpendicularidad en Q --> <path d="M 110,113 L 117,110 L 117,117" fill="none" stroke="#1e293b" stroke-width="1.2" stroke-linejoin="round"></path> </svg>
+<div style="text-align: center; margin-top: 8px; font-size: 0.85em; color: #64748b;">Esquema geométrico del problema</div>
+</div>
+</div>
+</div>
+<!-- Resolución paso a paso visible -->
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #000dff; padding: 25px; border-radius: 0 6px 6px 0; color: #1e293b;">
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;"><span style="color: #0066cc;">1. Ecuación del plano base</span></h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Lo primero que debes hacer es calcular la ecuación del plano que pasa por los tres puntos. Para obtener la ecuación de un plano necesitamos un punto, en este caso \(A=(3,0,0)\), y dos vectores directores: \(\overrightarrow{AB}=(-1,1,1)\) y \(\overrightarrow{AC}=(-5,4,2)\).</p>
+<p style="margin-bottom: 10px;">Si el plano que buscamos tiene la forma \(\pi \equiv ax+by+cz+d=0\), su vector normal \(\overrightarrow{n_{\pi}}=(a,b,c)\) es perpendicular a los vectores directores, por tanto su producto escalar es cero:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \overrightarrow{AB} \bullet \overrightarrow{n_{\pi}} = (-1,1,1)(a,b,c) = 0 \implies -a+b+c=0 \] \[ \overrightarrow{AC} \bullet \overrightarrow{n_{\pi}} = (-5,4,2)(a,b,c) = 0 \implies -5a+4b+2c=0 \]</div>
+<p style="margin-bottom: 10px;">Resolviendo el sistema de ecuaciones (Compatible Indeterminado ya que el número de vectores perpendiculares a dos dados es infinito):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \begin{cases} -a+b+c=0 \\ -5a+4b+2c=0 \end{cases} \implies \begin{cases} b=a-c \\ -5a+4(a-c)+2c=0 \end{cases} \]</div>
+<p style="margin-bottom: 10px;">Sustituyendo en la segunda ecuación y operando:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ -5a+4a-4c+2c=0 \implies -a-2c=0 \implies a=-2c \]</div>
+<p style="margin-bottom: 10px;">Por tanto, sustituyendo en \(b\), obtenemos \(b = -2c - c = -3c\). Haciendo \(c=-1\) tenemos que \(\overrightarrow{n_{\pi}} = (2,3,-1)\) y la ecuación es \(\pi \equiv 2x+3y-z+d=0\).</p>
+<p style="margin-bottom: 10px;">Puesto que el punto \(A=(3,0,0)\) debe verificar la ecuación del plano:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ 2\cdot 3 + 3\cdot 0 - 0 + d = 0 \implies d = -6 \]</div>
+<p style="margin-bottom: 0;">Luego la ecuación del plano es: <strong>\(\pi \equiv 2x+3y-z-6=0\)</strong>.</p>
+</div>
+<!-- Paso 2 -->
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;"><span style="color: #0066cc;">2. Ecuación de la recta (torre) perpendicular</span></h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Dado que la torre está situada de forma perpendicular al plano, debemos calcular la recta perpendicular al plano que pasa por el punto \(P=(5,2,8)\). En este caso, el vector director de la recta será directamente el vector normal del plano calculado antes: \(\overrightarrow{n_{\pi}} = (2,3,-1)\).</p>
+<p style="margin-bottom: 10px;">De esta forma, tenemos que la ecuación continua de la recta es:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ r \equiv \dfrac{x-5}{2} = \dfrac{y-2}{3} = \dfrac{z-8}{-1} \]</div>
+<p style="margin-bottom: 10px;">Para facilitar el siguiente paso, la expresamos como intersección de dos planos (multiplicando en cruz):</p>
+<div style="text-align: center; margin-bottom: 0;">\[ r \equiv \begin{cases} \dfrac{x-5}{2} = \dfrac{z-8}{-1} \\ \dfrac{y-2}{3} = \dfrac{z-8}{-1} \end{cases} \implies r \equiv \begin{cases} -x+5 = 2z-16 \\ -y+2 = 3z-24 \end{cases} \implies r \equiv \begin{cases} x+2z = 21 \\ y+3z = 26 \end{cases} \]</div>
+</div>
+<!-- Paso 3 -->
+<div style="margin-bottom: 0;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;"><span style="color: #0066cc;">3. Punto de corte (centro del edificio)</span></h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Para hallar el punto del plano que coincide con el centro del edificio debemos calcular el punto de corte de la recta con el plano resolviendo el sistema formado por ambos:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \begin{cases} 2x+3y-z=6 \\ x+2z=21 \\ y+3z=26 \end{cases} \implies \begin{cases} 2x+3y-z=6 \\ x=21-2z \\ y=26-3z \end{cases} \]</div>
+<p style="margin-bottom: 10px;">Sustituyendo la \(x\) y la \(y\) en la primera ecuación:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ 2(21-2z) + 3(26-3z) - z = 6 \] \[ 42 - 4z + 78 - 9z - z = 6 \] \[ 120 - 14z = 6 \implies 114 = 14z \implies z = \dfrac{114}{14} = \dfrac{57}{7} \]</div>
+<p style="margin-bottom: 10px;">Sustituyendo el valor de \(z\) de vuelta en \(x\) e \(y\):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \begin{cases} x = 21 - 2\left(\dfrac{57}{7}\right) = \dfrac{147-114}{7} = \dfrac{33}{7} \\[6pt] y = 26 - 3\left(\dfrac{57}{7}\right) = \dfrac{182-171}{7} = \dfrac{11}{7} \end{cases} \]</div>
+<div style="background-color: #f0f4ff; border: 2px solid #000dff; padding: 15px; border-radius: 8px; font-size: 1.05em; text-align: center; color: #000899; margin-top: 20px;"><strong>Solución:</strong> El punto de corte de la recta y el plano (el centro del edificio) es <strong>\(\pmb{Q = \left( \dfrac{33}{7}, \dfrac{11}{7}, \dfrac{57}{7} \right)}\)</strong>.</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvy6mwip-cacw0pavl" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793558858785-1nmyhqmtv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793558858785-1nmyhqmtv&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Hallar la ecuación de la recta, en forma paramétrica, que pasa por el punto \( P=(1,2,-1) \), es paralela al plano \( \pi \equiv 2x+y-z=3 \) y es perpendicular a la recta \( r \equiv \begin{cases} 3x+z=7 \\ x+4y+z=8 \end{cases} \)</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><!-- Contenedor Principal (Flexbox) para texto introductorio y gráfico -->
+<div style="display: flex; flex-wrap: wrap; gap: 25px; align-items: stretch; justify-content: center; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"><!-- Columna de Texto explicativo -->
+<div style="flex: 1 1 340px; display: flex; flex-direction: column; justify-content: center;">
+<div style="background-color: #f1f5f9; border-left: 4px solid #64748b; padding: 18px; border-radius: 0 4px 4px 0;">
+<p style="margin: 0 0 10px 0; font-weight: bold; color: #334155; font-size: 1.05em;">Estrategia de resolución:</p>
+<p style="margin: 0 0 10px 0; color: #475569;">Llamaremos \(s\) a la recta que buscamos. Para definirla necesitamos un punto (ya tenemos \(P\)) y su vector director \(\overrightarrow{v_s}\).</p>
+<ul style="margin: 0; padding-left: 20px; color: #475569;">
+<li style="margin-bottom: 8px;">Al ser paralela a \(\pi\), su vector director \(\overrightarrow{v_s}\) debe ser perpendicular al vector normal del plano (\(\overrightarrow{n_\pi}\)).</li>
+<li style="margin-bottom: 8px;">Al ser perpendicular a \(r\), su vector director \(\overrightarrow{v_s}\) debe ser perpendicular al vector director de dicha recta (\(\overrightarrow{v_r}\)).</li>
+<li>Obtendremos \(\overrightarrow{v_s}\) planteando un sistema de ecuaciones con estas dos condiciones de perpendicularidad (producto escalar igual a cero).</li>
+</ul>
+</div>
+<!-- Nota didáctica sobre el producto vectorial -->
+<div style="background-color: #fffbeb; border: 1px solid #fde68a; border-left: 4px solid #f59e0b; padding: 12px 15px; border-radius: 0 4px 4px 0; margin-top: 15px;">
+<p style="margin: 0; font-size: 0.9em; color: #92400e;"><strong>Nota:</strong> Muy pronto aprenderemos una operación llamada <em>producto vectorial</em>, que nos permitirá calcular este vector perpendicular \(\overrightarrow{v_s}\) de forma muchísimo más directa y rápida sin necesidad de resolver sistemas.</p>
+</div>
+</div>
+<!-- Columna del Gráfico SVG 3D -->
+<div style="flex: 1 1 300px; max-width: 400px; display: flex; align-items: center; justify-content: center;">
+<div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); width: 100%; padding: 15px;"><svg viewbox="0 0 240 180" width="100%" height="auto" style="display: block; margin: 0 auto; max-width: 340px;"> <defs> <!-- Plano --> <polygon id="plano" points="30,140 120,90 210,110 120,160" fill="#000dff" opacity="0.12" stroke="#000899" stroke-width="0.5"></polygon> <marker id="arrow-n" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#000dff"></path> </marker> <marker id="arrow-r" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#7e22ce"></path> </marker> <marker id="arrow-s" viewbox="0 0 10 10" refx="6" refy="5" markerwidth="5" markerheight="5" orient="auto-start-reverse"> <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#16a34a"></path> </marker> </defs> <!-- Plano pi --> <use href="#plano"></use> <text x="190" y="130" font-family="sans-serif" font-size="12" fill="#000899" font-weight="bold">π</text> <!-- Marcas de perpendicularidad nπ con plano --> <path d="M 120,117 L 129,115.5 L 129,123.5" fill="none" stroke="#000dff" stroke-width="1.2" stroke-linejoin="round"></path> <!-- Vector Normal del plano --> <line x1="120" y1="125" x2="120" y2="70" stroke="#000dff" stroke-width="2" marker-end="url(#arrow-n)"></line> <g transform="translate(125, 75)"> <path d="M 0,2 L 15,2 M 12,0 L 15,2 L 12,4" fill="none" stroke="#000dff" stroke-width="1.2" stroke-linejoin="round"></path> <text x="1" y="13" font-family="sans-serif" font-size="10" fill="#000dff" font-weight="bold">nπ</text> </g> <!-- Recta r --> <line x1="60" y1="20" x2="140" y2="170" stroke="#dc2626" stroke-width="2"></line> <text x="50" y="30" font-family="sans-serif" font-size="12" fill="#dc2626" font-weight="bold">r</text> <!-- Vector director vr (Morado) --> <line x1="80" y1="57.5" x2="105" y2="104.3" stroke="#7e22ce" stroke-width="2.5" marker-end="url(#arrow-r)"></line> <g transform="translate(68, 75)"> <path d="M 0,2 L 12,2 M 9,0 L 12,2 L 9,4" fill="none" stroke="#7e22ce" stroke-width="1.2" stroke-linejoin="round"></path> <text x="0" y="13" font-family="sans-serif" font-size="10" fill="#7e22ce" font-weight="bold">vr</text> </g> <!-- Recta s --> <line x1="20" y1="80" x2="220" y2="50" stroke="#d97706" stroke-width="2"></line> <text x="210" y="45" font-family="sans-serif" font-size="12" fill="#d97706" font-weight="bold">s</text> <!-- Punto P sobre s --> <circle cx="120" cy="65" r="3.5" fill="#1e293b"></circle> <text x="110" y="55" font-family="sans-serif" font-size="11" fill="#1e293b" font-weight="bold">P</text> <!-- Vector director vs (Verde) --> <line x1="120" y1="65" x2="170" y2="57.5" stroke="#16a34a" stroke-width="2.5" marker-end="url(#arrow-s)"></line> <g transform="translate(140, 42)"> <path d="M 0,2 L 12,2 M 9,0 L 12,2 L 9,4" fill="none" stroke="#16a34a" stroke-width="1.2" stroke-linejoin="round"></path> <text x="0" y="13" font-family="sans-serif" font-size="10" fill="#16a34a" font-weight="bold">vs</text> </g> <!-- Marca de perpendicularidad nπ con s en P --> <path d="M 120,73 L 127,71.5 L 127,64.5" fill="none" stroke="#1e293b" stroke-width="1.2" stroke-linejoin="round"></path> </svg>
+<div style="text-align: center; margin-top: 8px; font-size: 0.85em; color: #64748b;">Esquema geométrico del problema</div>
+</div>
+</div>
+</div>
+<!-- Resolución paso a paso -->
+<div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #000dff; padding: 25px; border-radius: 0 6px 6px 0; color: #1e293b;">
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">1. Vector normal del plano \(\pi\)</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">De la ecuación general del plano \( \pi \equiv 2x+y-z=3 \), extraemos directamente sus coeficientes para obtener su vector normal:</p>
+<div style="text-align: center; margin-bottom: 0;">\[ \overrightarrow{n_\pi} = (2, 1, -1) \]</div>
+</div>
+<!-- Paso 2 -->
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">2. Vector director de la recta \(r\)</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">La recta \(r\) viene dada como intersección de dos planos. Para hallar su vector director \(\overrightarrow{v_r}\) sin usar el producto vectorial, podemos obtener las ecuaciones paramétricas poniendo una variable en función de un parámetro \(t\).</p>
+<p style="margin-bottom: 10px;">Si llamamos \(y = t\), despejamos las demás variables. De la primera ecuación, \(z = 7 - 3x\). Sustituimos en la segunda:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ x + 4t + (7 - 3x) = 8 \implies -2x + 4t = 1 \implies 2x = 4t - 1 \implies x = 2t - \dfrac{1}{2} \]</div>
+<p style="margin-bottom: 10px;">Ahora sustituimos la \(x\) en la \(z\):</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ z = 7 - 3\left(2t - \dfrac{1}{2}\right) = 7 - 6t + \dfrac{3}{2} = \dfrac{17}{2} - 6t \]</div>
+<p style="margin-bottom: 10px;">Observando los coeficientes que acompañan al parámetro \(t\) en \(x, y, z\), obtenemos el vector director:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \overrightarrow{v_r} = (2, 1, -6) \]</div>
+</div>
+<!-- Paso 3 -->
+<div style="margin-bottom: 25px;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">3. Vector director de la recta buscada (\(s\))</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Sea \(\overrightarrow{v_s} = (a, b, c)\). Sabemos que debe ser perpendicular a \(\overrightarrow{n_\pi}\) y a \(\overrightarrow{v_r}\), por lo que ambos productos escalares deben ser cero:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ \begin{cases} \overrightarrow{v_s} \bullet \overrightarrow{n_\pi} = 0 \implies 2a + b - c = 0 \\ \overrightarrow{v_s} \bullet \overrightarrow{v_r} = 0 \implies 2a + b - 6c = 0 \end{cases} \]</div>
+<p style="margin-bottom: 10px;">Resolvemos este sistema restando la primera ecuación a la segunda:</p>
+<div style="text-align: center; margin-bottom: 15px;">\[ -5c = 0 \implies c = 0 \]</div>
+<p style="margin-bottom: 10px;">Sustituyendo \(c = 0\) en la primera ecuación obtenemos \(2a + b = 0 \implies b = -2a\). Como buscamos un vector cualquiera que cumpla la dirección, damos el valor \(a = 1\) y obtenemos \(b = -2\). Así:</p>
+<div style="text-align: center; margin-bottom: 0;">\[ \overrightarrow{v_s} = (1, -2, 0) \]</div>
+</div>
+<!-- Paso 4 -->
+<div style="margin-bottom: 0;">
+<h5 style="color: #000899; font-size: 1.05em; margin: 0 0 10px 0;">4. Ecuaciones paramétricas de la recta \(s\)</h5>
+<p style="margin-bottom: 10px; margin-top: 0;">Con el punto \(P(1, 2, -1)\) y el vector \(\overrightarrow{v_s} = (1, -2, 0)\), escribimos las ecuaciones pedidas.</p>
+<div style="background-color: #f0f4ff; border: 2px solid #000dff; padding: 15px; border-radius: 8px; font-size: 1.05em; text-align: center; color: #000899; margin-top: 15px;"><strong>Solución:</strong> \[ s \equiv \begin{cases} x = 1 + \lambda \\ y = 2 - 2\lambda \\ z = -1 \end{cases} \]</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/33-angulo-entre-una-recta-y-un-plano.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/ejercicios.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-nc-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="license">Creative Commons: Reconocimiento - no comercial - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvux20lh-mqspsjcjf">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<title>1. Módulo de un vector | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvux20lh-mqspsjcjf" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Producto escalar. Aplicaciones</a>
+</li>
+<li class="active"> <a href="../html/1-modulo-de-un-vector-.html" class="active daddy">1. Módulo de un vector    </a>
+<ul class="other-section">
+<li> <a href="../html/11-definicion-y-propiedades.html" class="no-ch">1.1. Definición y propiedades</a>
+</li>
+<li> <a href="../html/12-vector-unitario-.html" class="no-ch">1.2. Vector unitario </a>
+</li>
+<li> <a href="../html/13-actividades.html" class="no-ch">1.3. Actividades</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-producto-escalar.html" class="daddy">2. Producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/21-definicion-general-y-geometrica-.html" class="no-ch">2.1. Definición general y geométrica   </a>
+</li>
+<li> <a href="../html/22-vectores-ortogonales-y-ortonormales.html" class="no-ch">2.2. Vectores ortogonales y ortonormales</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/3-aplicaciones-del-producto-escalar.html" class="daddy">3. Aplicaciones del producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/31-angulo-comprendido-entre-dos-rectas.html" class="no-ch">3.1. Ángulo comprendido entre dos rectas</a>
+</li>
+<li> <a href="../html/32-angulo-comprendido-entre-dos-planos.html" class="no-ch">3.2. Ángulo comprendido entre dos planos</a>
+</li>
+<li> <a href="../html/33-angulo-entre-una-recta-y-un-plano.html" class="no-ch">3.3. Ángulo entre una recta y un plano</a>
+</li>
+<li> <a href="../html/34-perpendicularidad-en-el-espacio.html" class="no-ch">3.4. Perpendicularidad en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvux20lh-mqspsjcjf" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Producto escalar. Aplicaciones</p></div>
+<div class="page-header"><h1 class="page-title">1. Módulo de un vector    </h1></div>
+</header><div id="page-content-page-mvux20lh-mqspsjcjf" class="page-content">
+<article id="block-mvux20li-ng5u5lzg3" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20li-hvmjxka27" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20li-hvmjxka27&quot;}">
+<div class="exe-text-template">
+    <p align="justify"><br /></p>
+<p align="justify"><img src="../content/resources/flecha.jpg" width="35%" style="text-align: start; display: block; margin-left: auto; margin-right: auto;" /></p>
+<p align="justify">Ya conoces cómo se forman los vectores y la forma de utilizarlos, o por lo menos de utilizar una parte de sus propiedades. Sabes que dados dos puntos \(A\) y \(B\), el vector que va del punto \(A\) al punto \(B\) tiene una dirección, la recta que pasa por \(A\) y por \(B\), y también tiene un sentido, en este caso el que va del punto \(A\) al punto \(B\).</p>
+<p align="justify">También sabes que, independientemente del lugar en el que coloquemos un vector en un plano, queda definido por tres características que lo identifican. La primera es la dirección y la segunda es el sentido. Éstas ya las conoces, pero nos queda una tercera que vamos a tratar en este punto. <strong>Su módulo.</strong></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvv0i7dh-67c1jhwqo" class="box caja-roja">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/bidio.gif" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Vídeo</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793367163347-qrcs926lc" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793367163347-qrcs926lc&quot;}">
+<div class="exe-text-template">
+    <p><img src="../content/resources/el-universo-mecanico-fisica.png" width="146" height="146" alt="" style="display: block; margin-left: auto; margin-right: auto;" /> </p>
+<p> La serie documental <span style="color: #e03e2d;">"El universo mecánico"</span>, realizada por el<em> California Institute of Technology</em>, hace un recorrido por los distintos campos de la física: electricidad, magnetismo, mecánica, etc.</p>
+<p>El capítulo 5 está dedicado a los vectores: <a href="https://youtu.be/M70SR93sDK4?si=fYcE797fUCm3fC_4&amp;t=556" title=""><img src="../content/resources/yutube.png" width="50" height="51" alt="" /></a><br /></p>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../index.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/11-definicion-y-propiedades.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-nc-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="license">Creative Commons: Reconocimiento - no comercial - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>

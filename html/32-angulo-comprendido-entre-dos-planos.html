@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mvux20lh-ubxojgm9p">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="exe-pass-score" content="5">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<title>3.2. Ángulo comprendido entre dos planos | Espacio afín y euclídeo</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Curso 2º - Enseñanza Bachillerato
+Nombre asignatura/materia: Matemáticas II">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/form/form.js"></script><link rel="stylesheet" href="../idevices/form/form.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><script src="../theme/z-custom-effects.js"> </script><link rel="stylesheet" href="../theme/colores.css"><link rel="stylesheet" href="../theme/comic.css"><link rel="stylesheet" href="../theme/ejercicio.css"><link rel="stylesheet" href="../theme/libreta.css"><link rel="stylesheet" href="../theme/navegacion.css"><link rel="stylesheet" href="../theme/nota-azul.css"><link rel="stylesheet" href="../theme/retroalimentacion.css"><link rel="stylesheet" href="../theme/style.css">
+<script src="../libs/exe_math/tex-mml-svg.js"> </script>
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mvux20lh-ubxojgm9p" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Espacio afín y euclídeo: Producto escalar. Aplicaciones</a>
+</li>
+<li> <a href="../html/1-modulo-de-un-vector-.html" class="daddy">1. Módulo de un vector    </a>
+<ul class="other-section">
+<li> <a href="../html/11-definicion-y-propiedades.html" class="no-ch">1.1. Definición y propiedades</a>
+</li>
+<li> <a href="../html/12-vector-unitario-.html" class="no-ch">1.2. Vector unitario </a>
+</li>
+<li> <a href="../html/13-actividades.html" class="no-ch">1.3. Actividades</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/2-producto-escalar.html" class="daddy">2. Producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/21-definicion-general-y-geometrica-.html" class="no-ch">2.1. Definición general y geométrica   </a>
+</li>
+<li> <a href="../html/22-vectores-ortogonales-y-ortonormales.html" class="no-ch">2.2. Vectores ortogonales y ortonormales</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/3-aplicaciones-del-producto-escalar.html" class="daddy">3. Aplicaciones del producto escalar</a>
+<ul class="other-section">
+<li> <a href="../html/31-angulo-comprendido-entre-dos-rectas.html" class="no-ch">3.1. Ángulo comprendido entre dos rectas</a>
+</li>
+<li class="active"> <a href="../html/32-angulo-comprendido-entre-dos-planos.html" class="active no-ch">3.2. Ángulo comprendido entre dos planos</a>
+</li>
+<li> <a href="../html/33-angulo-entre-una-recta-y-un-plano.html" class="no-ch">3.3. Ángulo entre una recta y un plano</a>
+</li>
+<li> <a href="../html/34-perpendicularidad-en-el-espacio.html" class="no-ch">3.4. Perpendicularidad en el espacio</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/ejercicios.html" class="no-ch">Ejercicios</a>
+</li>
+<li> <a href="../html/resumen.html" class="no-ch">Resumen</a>
+</li>
+</ul>
+</nav><main id="page-mvux20lh-ubxojgm9p" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Espacio afín y euclídeo</p>
+<p class="package-subtitle">Producto escalar. Aplicaciones</p></div>
+<div class="page-header"><h1 class="page-title">3.2. Ángulo comprendido entre dos planos</h1></div>
+</header><div id="page-content-page-mvux20lh-ubxojgm9p" class="page-content">
+<article id="block-mvwsocwx-0i0cmq9fn" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_definicion.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ángulo entre dos planos en el espacio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793474945888-cefdwd6xi" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793474945888-cefdwd6xi&quot;}">
+<div class="exe-text-template">
+    <p style="margin: 0px; text-align: justify;">Dados dos planos \( \pi_1 \) y \( \pi_2 \), cuando se cortan en el espacio forman dos ángulos distintos. Como podemos observar en la ilustración, uno de ellos es superior a \(90\)° y el otro menor. Definimos el ángulo que forman los dos planos como el menor de estos ángulos (y, por tanto, siempre menor o igual que \(90\)°).</p>
+<p style="margin: 0px; text-align: justify;">Fíjate en que el ángulo que forman los dos planos es exactamente el mismo que el que forman sus respectivos vectores normales \( \vec{v}_1 \) y \( \vec{v}_2 \). Gracias a esta relación, podemos calcular con facilidad el ángulo entre los dos planos utilizando dichos vectores.</p>
+<p style="margin: 0;"><img src="../content/resources/pplano2.png" width="40%" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="margin: 0; padding-top: 10px; border-top: 1px dashed #cbd5e1; font-size: 0.95em; color: #475569;">En el caso en que los planos no se corten (es decir, que sean paralelos), sus vectores normales formarán un ángulo de \(0\)°, lo que se corresponde con un ángulo de \(0\)° entre los propios planos.</p>
+<p><br /></p>
+<table border="0" cellpadding="10" style="width: 100.015%; background-color: #bfedd2;">
+<tbody>
+<tr>
+<td style="width: 99.925%;">Definimos el <span style="color: #007632;"><strong>ángulo entre dos planos</strong></span> \( \pi_1 \) y \( \pi_2 \) como el que forman sus <strong>vectores normales</strong> \( \vec{v}_1 \) y \( \vec{v}_2 \).</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</article><article id="block-mvux20lm-o2920fcjo" class="box no-header sin-titulo">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20lm-xvxqwcfk9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20lm-xvxqwcfk9&quot;}">
+<div class="exe-text-template">
+    <p>En esta escena puedes ver el ángulo entre dos planos. Si mueves los puntos puedes cambiar los planos y ver como varía el ángulo entre los mismos.</p>
+<p><iframe width="685" height="525" style="border: 0px; display: block; margin-left: auto; margin-right: auto;" scrolling="no" src="https://www.geogebra.org/material/iframe/id/UmSDswCx/width/685/height/525/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false"></iframe></p>
+</div>
+</div>
+</div>
+</article><article id="block-mvxq9t0j-j9m1jyxb0" class="box sin-nada">
+<header class="box-head no-icon">
+<h1 class="box-title">Texto</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793531373858-gkp5g9g2p" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793531373858-gkp5g9g2p&quot;}">
+<div class="exe-text-template">
+    <div id="ap-wrapper" style="font-family: 'Segoe UI', Arial, sans-serif; width: 100%; box-sizing: border-box; background-color: #fff8f0; padding: 25px 20px; border-radius: 8px; border: 1px solid #ffb74d; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+<h2 style="color: #e65100; text-align: center; border-bottom: 3px solid #ff9800; padding-bottom: 10px; margin-top: 0;">Calculadora del ángulo entre dos planos</h2>
+<p style="text-align: center; color: #555; font-size: 0.95em; margin-bottom: 25px;">Selecciona cómo quieres introducir cada plano y completa sus datos.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 25px;"><!-- Contenedor Plano 1 -->
+<div style="background-color: #fff; padding: 15px; border-radius: 6px; border: 1px solid #ffcc80; flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: center;">
+<div style="margin-bottom: 15px; width: 100%; text-align: center;"><label style="font-weight: bold; color: #e65100; font-size: 1.1em;">Plano \(\pmb{\pi_1}\): </label><select id="ap_sel_p1" class="ap-select">
+<option value="gen">Ecuación General (Implícita)</option>
+<option value="vecs">Punto y dos vectores</option>
+</select></div>
+<!-- p1: General -->
+<div id="ap_p1_gen" class="ap-input-group" style="display: flex; align-items: center; justify-content: center;">
+<div style="white-space: nowrap;"><input type="number" id="ap_p1_A" class="ap-inp" />\(x +\) <input type="number" id="ap_p1_B" class="ap-inp" />\(y +\) <input type="number" id="ap_p1_C" class="ap-inp" />\(z +\) <input type="number" id="ap_p1_D" class="ap-inp" />\(= 0\)</div>
+</div>
+<!-- p1: Vectores -->
+<div id="ap_p1_vecs" class="ap-input-group" style="display: none; align-items: center; justify-content: center; flex-direction: column; gap: 8px;">
+<div><span>\(P(\)</span> <input type="number" id="ap_p1_px" class="ap-inp" placeholder="px" />, <input type="number" id="ap_p1_py" class="ap-inp" placeholder="py" />, <input type="number" id="ap_p1_pz" class="ap-inp" placeholder="pz" /> <span>\()\)</span></div>
+<div><span>\(\vec{u} = (\)</span> <input type="number" id="ap_p1_ux" class="ap-inp" placeholder="ux" />, <input type="number" id="ap_p1_uy" class="ap-inp" placeholder="uy" />, <input type="number" id="ap_p1_uz" class="ap-inp" placeholder="uz" /> <span>\()\)</span></div>
+<div><span>\(\vec{v} = (\)</span> <input type="number" id="ap_p1_vx" class="ap-inp" placeholder="vx" />, <input type="number" id="ap_p1_vy" class="ap-inp" placeholder="vy" />, <input type="number" id="ap_p1_vz" class="ap-inp" placeholder="vz" /> <span>\()\)</span></div>
+</div>
+</div>
+<!-- Contenedor Plano 2 -->
+<div style="background-color: #fff; padding: 15px; border-radius: 6px; border: 1px solid #ffcc80; flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: center;">
+<div style="margin-bottom: 15px; width: 100%; text-align: center;"><label style="font-weight: bold; color: #e65100; font-size: 1.1em;">Plano \(\pmb{\pi_2}\): </label><select id="ap_sel_p2" class="ap-select">
+<option value="gen">Ecuación General (Implícita)</option>
+<option value="vecs">Punto y dos vectores</option>
+</select></div>
+<!-- p2: General -->
+<div id="ap_p2_gen" class="ap-input-group" style="display: flex; align-items: center; justify-content: center;">
+<div style="white-space: nowrap;"><input type="number" id="ap_p2_A" class="ap-inp" />\(x +\) <input type="number" id="ap_p2_B" class="ap-inp" />\(y +\) <input type="number" id="ap_p2_C" class="ap-inp" />\(z +\) <input type="number" id="ap_p2_D" class="ap-inp" />\(= 0\)</div>
+</div>
+<!-- p2: Vectores -->
+<div id="ap_p2_vecs" class="ap-input-group" style="display: none; align-items: center; justify-content: center; flex-direction: column; gap: 8px;">
+<div><span>\(P(\)</span> <input type="number" id="ap_p2_px" class="ap-inp" placeholder="px" />, <input type="number" id="ap_p2_py" class="ap-inp" placeholder="py" />, <input type="number" id="ap_p2_pz" class="ap-inp" placeholder="pz" /> <span>\()\)</span></div>
+<div><span>\(\vec{u} = (\)</span> <input type="number" id="ap_p2_ux" class="ap-inp" placeholder="ux" />, <input type="number" id="ap_p2_uy" class="ap-inp" placeholder="uy" />, <input type="number" id="ap_p2_uz" class="ap-inp" placeholder="uz" /> <span>\()\)</span></div>
+<div><span>\(\vec{v} = (\)</span> <input type="number" id="ap_p2_vx" class="ap-inp" placeholder="vx" />, <input type="number" id="ap_p2_vy" class="ap-inp" placeholder="vy" />, <input type="number" id="ap_p2_vz" class="ap-inp" placeholder="vz" /> <span>\()\)</span></div>
+</div>
+</div>
+</div>
+<div style="text-align: center; margin-bottom: 20px;">
+<div role="button" id="ap_btn_calc" class="ap-btn-calc" tabindex="0">Calcular Ángulo</div>
+<div role="button" id="ap_btn_clear" class="ap-btn-clear" tabindex="0">Borrar datos</div>
+</div>
+<div id="ap_result_container" style="display: none; background-color: #fff; padding: 25px; border-radius: 8px; border: 2px dashed #f57c00; text-align: center; overflow-x: auto;">
+<h4 style="color: #e65100; margin-top: 0; margin-bottom: 15px; font-size: 1.2em;">Ángulo entre \(\pi_1\) y \(\pi_2\)</h4>
+<div id="ap_res_math" style="color: #333; font-size: 1.1em;"></div>
+</div>
+</div>
+<style>
+    /* Blindaje CSS */
+    #ap-wrapper .ap-inp { width: 48px !important; padding: 6px 4px !important; text-align: center !important; border: 2px solid #ffb74d !important; border-radius: 4px !important; font-size: 1em !important; background-color: #fff !important; color: #333 !important; transition: border-color 0.2s !important; margin: 0 2px !important; }
+    #ap-wrapper .ap-inp:focus { outline: none !important; border-color: #e65100 !important; background-color: #fff3e0 !important; }
+    #ap-wrapper .ap-select { padding: 6px 10px !important; font-size: 1em !important; border: 2px solid #ffb74d !important; border-radius: 4px !important; background-color: #fff !important; color: #e65100 !important; font-weight: bold !important; cursor: pointer !important; outline: none !important; }
+    #ap-wrapper .ap-select:focus { border-color: #e65100 !important; }
+    
+    #ap-wrapper .ap-btn-calc { display: inline-block; background-color: #f57c00 !important; color: #ffffff !important; border: 2px solid #f57c00 !important; padding: 10px 22px !important; cursor: pointer !important; border-radius: 5px !important; font-weight: bold !important; font-size: 1.05em !important; margin: 0 5px !important; user-select: none; transition: all 0.2s !important; }
+    #ap-wrapper .ap-btn-calc:hover { background-color: #e65100 !important; border-color: #e65100 !important; }
+    
+    #ap-wrapper .ap-btn-clear { display: inline-block; background-color: #ffffff !important; color: #f57c00 !important; border: 2px solid #f57c00 !important; padding: 10px 15px !important; cursor: pointer !important; border-radius: 5px !important; font-weight: bold !important; font-size: 1.05em !important; margin: 0 5px !important; user-select: none; transition: all 0.2s !important; }
+    #ap-wrapper .ap-btn-clear:hover { background-color: #fff3e0 !important; border-color: #e65100 !important; color: #e65100 !important; }
+</style>
+<p>
+<script>
+(function() {
+    function bindEvents() {
+        // Gestión de los selectores para mostrar/ocultar inputs
+        function setupSelect(selId, prefix) {
+            let sel = document.getElementById(selId);
+            if(sel) {
+                sel.addEventListener('change', function(e) {
+                    document.getElementById(prefix + 'gen').style.display = 'none';
+                    document.getElementById(prefix + 'vecs').style.display = 'none';
+                    document.getElementById(prefix + e.target.value).style.display = 'flex';
+                });
+            }
+        }
+        setupSelect('ap_sel_p1', 'ap_p1_');
+        setupSelect('ap_sel_p2', 'ap_p2_');
+
+        let btnCalc = document.getElementById('ap_btn_calc');
+        let btnClear = document.getElementById('ap_btn_clear');
+
+        function getVal(id) {
+            let el = document.getElementById(id);
+            if (!el || el.value.trim() === '') return 0;
+            let val = parseFloat(el.value);
+            return isNaN(val) ? 0 : val;
+        }
+
+        function renderMath(container) {
+            if (typeof MathJax !== 'undefined') {
+                if (MathJax.typesetPromise) {
+                    MathJax.typesetPromise([container]);
+                } else if (MathJax.Hub) {
+                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, container]);
+                }
+            }
+        }
+
+        // Extrae el vector normal de los planos
+        function getNormal(prefix) {
+            let type = document.getElementById('ap_sel_' + prefix).value;
+            if (type === 'gen') {
+                return [ getVal('ap_' + prefix + '_A'), getVal('ap_' + prefix + '_B'), getVal('ap_' + prefix + '_C') ];
+            } else if (type === 'vecs') {
+                let u = [ getVal('ap_' + prefix + '_ux'), getVal('ap_' + prefix + '_uy'), getVal('ap_' + prefix + '_uz') ];
+                let v = [ getVal('ap_' + prefix + '_vx'), getVal('ap_' + prefix + '_vy'), getVal('ap_' + prefix + '_vz') ];
+                // Producto vectorial para obtener el vector normal
+                return [ u[1]*v[2] - u[2]*v[1], u[2]*v[0] - u[0]*v[2], u[0]*v[1] - u[1]*v[0] ];
+            }
+        }
+
+        if(btnCalc) {
+            btnCalc.addEventListener('click', function() {
+                let n1 = getNormal('p1');
+                let n2 = getNormal('p2');
+
+                let modN1_2 = n1[0]*n1[0] + n1[1]*n1[1] + n1[2]*n1[2];
+                let modN2_2 = n2[0]*n2[0] + n2[1]*n2[1] + n2[2]*n2[2];
+                
+                let resBox = document.getElementById('ap_result_container');
+                let mathBox = document.getElementById('ap_res_math');
+
+                if (modN1_2 === 0 || modN2_2 === 0) {
+                    mathBox.innerHTML = `<p style="color: #c62828;"><strong>Error:</strong> Uno de los planos tiene un vector normal nulo \((0,0,0)\).<br>Revisa los datos introducidos.</p>`;
+                } else {
+                    let modN1 = Math.sqrt(modN1_2);
+                    let modN2 = Math.sqrt(modN2_2);
+                    let dotAbs = Math.abs(n1[0]*n2[0] + n1[1]*n2[1] + n1[2]*n2[2]);
+                    
+                    let cosAlpha = dotAbs / (modN1 * modN2);
+                    cosAlpha = Math.max(-1, Math.min(1, cosAlpha));
+                    let angleRad = Math.acos(cosAlpha);
+                    let angleDeg = angleRad * (180 / Math.PI);
+                    
+                    let deg = Math.floor(angleDeg);
+                    let minFloat = (angleDeg - deg) * 60;
+                    let min = Math.floor(minFloat);
+                    let sec = Math.round((minFloat - min) * 60);
+                    if (sec === 60) { sec = 0; min += 1; }
+                    if (min === 60) { min = 0; deg += 1; }
+
+                    let rootN1_tex = (modN1 % 1 === 0) ? modN1 : `\\sqrt{${modN1_2}}`;
+                    let rootN2_tex = (modN2 % 1 === 0) ? modN2 : `\\sqrt{${modN2_2}}`;
+                    let prodInt = Math.sqrt(modN1_2 * modN2_2);
+                    let rootProd_tex = (prodInt % 1 === 0) ? prodInt : `\\sqrt{${modN1_2 * modN2_2}}`;
+
+                    let mathAng = `\\[ \\cos(\\alpha) = \\dfrac{|\\vec{n}_1 \\cdot \\vec{n}_2|}{|\\vec{n}_1| \\cdot |\\vec{n}_2|} = \\dfrac{${dotAbs}}{${rootN1_tex} \\cdot ${rootN2_tex}} \\]`;
+                    mathAng += `\\[ \\alpha = \\arccos\\left( \\dfrac{${dotAbs}}{${rootProd_tex}} \\right) \\approx ${angleDeg.toFixed(2)}^\\circ \\]`;
+                    mathAng += `\\[ \\alpha = ${deg}^\\circ\\ ${min}'\\ ${sec}'' \\]`;
+
+                    mathBox.innerHTML = mathAng;
+                }
+
+                resBox.style.display = 'block';
+                renderMath(resBox);
+            });
+        }
+
+        if(btnClear) {
+            btnClear.addEventListener('click', function() {
+                document.querySelectorAll('#ap-wrapper .ap-inp').forEach(i => i.value = '');
+                document.getElementById('ap_result_container').style.display = 'none';
+            });
+        }
+    }
+
+    setTimeout(bindEvents, 200);
+})();
+</script>
+</p>
+</div>
+</div>
+</div>
+</article><article id="block-mvxql21d-0gulemtzy" class="box caja-azul ejercicio-custom">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_ejercicioresuelto.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Ejercicio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1793531898768-mstpqbi7z" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1793531898768-mstpqbi7z&quot;}">
+<div class="exe-text-template">
+    <div class="exe-text-activity"><table style="width: 300px;" border="1" align="right">
+<tbody>
+<tr>
+<td style="border: 1px solid #ffffff;"><img src="../content/resources/iglesia.jpg" height="333" width="250" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+</tr>
+</tbody>
+</table>
+<p> El tejado de las casas en los países nórdicos suelen tener una pendiente bastante pronunciada para evitar que los mismos puedan derrumbarse por el peso de la nieve acumulada.</p>
+<p style="text-align: justify;">Un arquitecto va a proceder a la restauración de la iglesia de Solvorn, a orillas del Lusterfjorden, Noruega. Una de las cosas que debe observar es que el ángulo que forma el tejado sea inferior a \(86 \textdegree\).  La aplicación con la que trata las fotografías le indica que el plano de una de las alas del tejado es: \[\pi_1 \equiv 2x-3y+z-4=0\]y que el plano del otro ala es \[\pi_2 \equiv 8x+4y+2z-5=0\]Estudia si las alas del tejado cumplen la restricción pedida.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p>Vamos a calcular el ángulo que forman los dos planos. En este caso, los vectores normales de los distintos planos son:</p>
+<p>\(\overrightarrow{v_{\pi_1}} = (2,-3,1)\) y \(\overrightarrow{v_{\pi_2}} = (8,4,2)\)</p>
+<p>Así, si \(\alpha\) es el ángulo que forman:</p>
+<div style="text-align: center; margin: 15px 0;">\(\cos(\alpha) = \dfrac{\left|\overrightarrow{v_{\pi_1}} \bullet \overrightarrow{v_{\pi_2}}\right|}{\left|\overrightarrow{v_{\pi_1}}\right|\cdot\left|\overrightarrow{v_{\pi_2}}\right|} = \dfrac{(2,-3,1)\bullet(8,4,2)}{\sqrt{\rule{0em}{1em} 2^2+(-3)^2+1^2}\cdot\sqrt{\rule{0em}{1em}8^2+4^2+2^2}} = \dfrac{16-12+2}{\sqrt{14}\sqrt{84}} = \dfrac{6}{\sqrt{14}\sqrt{84}} = 0,17496\)</div>
+<p>Por tanto \(\alpha = 79,923^\circ\)</p>
+<p>Luego la pendiente del tejado está en perfectas condiciones.</p></div></div>
+</div>
+</div>
+</div>
+</article><article id="block-mvux20lm-t0iffu5ow" class="box caja-morada boton-morado">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_formulario.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Selecciona</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20lm-avxmvitd7" class="idevice_node form" data-idevice-path="../idevices/form/" data-idevice-type="form" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20lm-avxmvitd7&quot;,&quot;evaluation&quot;:false,&quot;evaluationID&quot;:&quot;&quot;,&quot;passScoreMode&quot;:&quot;global&quot;,&quot;passScoreCustom&quot;:5,&quot;repeatActivity&quot;:true,&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;weighted&quot;:100,&quot;msgs&quot;:{&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgYouScore&quot;:&quot;Tu puntuación es&quot;,&quot;msgEndGameScore&quot;:&quot;Comience la partida antes de guardar la puntuación.&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgWeight&quot;:&quot;Peso&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Solo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Solo puede guardar una vez&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgUncompletedActivity&quot;:&quot;Actividad no completada&quot;,&quot;msgSuccessfulActivity&quot;:&quot;Actividad superada. Puntuación: %s&quot;,&quot;msgUnsuccessfulActivity&quot;:&quot;Actividad no superada. Puntuación: %s&quot;,&quot;msgPassScore&quot;:&quot;Puntuación mínima necesaria para aprobar esta actividad: %s&quot;,&quot;msgTypeGame&quot;:&quot;Formulario&quot;,&quot;msgStartGame&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTime&quot;:&quot;Tiempo por pregunta&quot;,&quot;msgSaveScore&quot;:&quot;Guardar la puntuación&quot;,&quot;msgResult&quot;:&quot;Resultado&quot;,&quot;msgCheck&quot;:&quot;Comprobar&quot;,&quot;msgReset&quot;:&quot;Reiniciar&quot;,&quot;msgShowAnswers&quot;:&quot;Mostrar respuestas&quot;,&quot;msgTestResultPass&quot;:&quot;¡Felicidades! Has pasado la prueba&quot;,&quot;msgTestResultNotPass&quot;:&quot;Lo siento. Has fallado la prueba&quot;,&quot;msgTrueFalseHelp&quot;:&quot;Di si la afirmación es verdadera o falsa&quot;,&quot;msgDropdownHelp&quot;:&quot;Elige la respuesta correcta entre las opciones propuestas&quot;,&quot;msgFillHelp&quot;:&quot;Rellena los espacios en blanco con la palabra apropiada&quot;,&quot;msgSingleSelectionHelp&quot;:&quot;Opción múltiple con solo una respuesta correcta&quot;,&quot;msgMultipleSelectionHelp&quot;:&quot;Opción múltiple con varias respuestas correctas&quot;,&quot;msgPlayStart&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTrue&quot;:&quot;Verdadero&quot;,&quot;msgFalse&quot;:&quot;Falso&quot;,&quot;msgNext&quot;:&quot;Siguiente&quot;,&quot;msgPrevious&quot;:&quot;Anterior&quot;,&quot;msgSuggestion&quot;:&quot;Sugerencia&quot;,&quot;msgOk&quot;:&quot;Correcto&quot;,&quot;msgKO&quot;:&quot;Incorrecto&quot;,&quot;msgHide&quot;:&quot;Ocultar&quot;},&quot;id&quot;:&quot;idevice-mvux20lm-avxmvitd7&quot;,&quot;questionsRandom&quot;:false,&quot;percentageQuestions&quot;:&quot;100&quot;,&quot;time&quot;:&quot;0&quot;,&quot;eXeFormInstructions&quot;:&quot;&lt;p&gt;Dados los planos \\(\\pi_1\\equiv 8x+3y-7z-8=0\\) y \\(\\pi_2\\equiv -6x-7y+3z-1=0\\)&lt;/p&gt;\n&lt;p&gt;El ángulo que forman es:&lt;/p&gt;&quot;,&quot;questionsData&quot;:[{&quot;id&quot;:&quot;1793532061632-NKAA9&quot;,&quot;activityType&quot;:&quot;selection&quot;,&quot;baseText&quot;:&quot;&quot;,&quot;feedbackRight&quot;:&quot;&quot;,&quot;feedbackWrong&quot;:&quot;&quot;,&quot;suggestion&quot;:&quot;&quot;,&quot;wrongAnswersValue&quot;:&quot;&quot;,&quot;selectionType&quot;:&quot;multiple&quot;,&quot;answers&quot;:[{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(28,22 \\textdegree \\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(40,82\\textdegree \\)&quot;},{&quot;0&quot;:true,&quot;1&quot;:&quot;\\(32,82\\textdegree \\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(27,32\\textdegree \\)&quot;}],&quot;answer&quot;:&quot;1&quot;,&quot;capitalization&quot;:false,&quot;strict&quot;:false,&quot;order&quot;:0,&quot;customScore&quot;:1,&quot;time&quot;:0}],&quot;addBtnAnswers&quot;:true,&quot;eXeIdeviceTextAfter&quot;:&quot;&quot;,&quot;showSlider&quot;:false}" data-idevice-template="form.html">
+<div class="exe-form-container">
+  <div class="game-evaluation-ids js-hidden" data-id="idevice-mvux20lm-avxmvitd7" data-evaluationb="false" data-evaluationid=""></div>
+            <div id="frmMainContainer-idevice-mvux20lm-avxmvitd7" class="form-IDevice" data-id="idevice-mvux20lm-avxmvitd7">
+                <div class="form-Data js-hidden">{}</div>
+                <div class="form-instructions"><p>Dados los planos \(\pi_1\equiv 8x+3y-7z-8=0\) y \(\pi_2\equiv -6x-7y+3z-1=0\)</p>
+<p>El ángulo que forman es:</p></div>
+                <div class="FRMP-GameScoreBoard" style="display:none;">
+                    <div>
+                        <strong><span class="sr-av">Tiempo por pregunta:</span></strong>
+                        <span id="frmPTime-idevice-mvux20lm-avxmvitd7">00:00</span>
+                    </div>
+                </div>
+                <div class="FRMP-StartGame" id="frmStartGameDiv-idevice-mvux20lm-avxmvitd7" style="display:none;">
+                      <button  id="frmStartGame-idevice-mvux20lm-avxmvitd7" type="button" class="btn btn-primary">Pulsa aquí para empezar</button>
+                </div>
+                <div class="form-body" id="frmBody-idevice-mvux20lm-avxmvitd7" style="display:block;">
+                    <div class="FRMP-Questions">
+                        <div id="form-questions-idevice-mvux20lm-avxmvitd7" > </div>
+                        <div id="frmCover-idevice-mvux20lm-avxmvitd7" class="FRMP-Cover"> </div>
+                    </div>
+                    <div id="resultsContainer-idevice-mvux20lm-avxmvitd7" class="form-results-container inline">
+                        <div id="form-score-idevice-mvux20lm-avxmvitd7" class="score-text">Puntuación.</div>
+                        <div id="form-result-test-idevice-mvux20lm-avxmvitd7" class="score-text phrase-score"></div>
+                    </div>
+                    <div class="form-buttons-container inline">
+                        <input id="form-button-check-idevice-mvux20lm-avxmvitd7" class="btn btn-primary" type="button" value="Comprobar"
+                            data-id="idevice-mvux20lm-avxmvitd7" />
+                        <input id="form-button-reset-idevice-mvux20lm-avxmvitd7" type="button" value="Reiniciar"
+                            data-id="idevice-mvux20lm-avxmvitd7" class="btn btn-primary"  style="display:none" />
+                        <input id="form-button-show-answers-idevice-mvux20lm-avxmvitd7" class="btn btn-primary" type="button" value="Mostrar respuestas"
+                            data-id="idevice-mvux20lm-avxmvitd7" style="display: " />
+
+                    </div>
+                </div>
+                <div class="Games-BottonContainer d-flex align-items-center justify-content-end mx-auto p-0 w-100"></div>
+                
+            </div>
+            <div class="questionsMedia" style="display:none"></div>
+            
+</div>
+</div>
+</div>
+</article><article id="block-mvux20lo-qnixcuxi4" class="box caja-morada boton-morado">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/icon_formulario.png" alt="" style="display:block;object-fit:contain;">
+</div>
+<h1 class="box-title">Selecciona</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-mvux20lo-2e3o3x1l3" class="idevice_node form" data-idevice-path="../idevices/form/" data-idevice-type="form" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-mvux20lo-2e3o3x1l3&quot;,&quot;evaluation&quot;:false,&quot;evaluationID&quot;:&quot;&quot;,&quot;passScoreMode&quot;:&quot;global&quot;,&quot;passScoreCustom&quot;:5,&quot;repeatActivity&quot;:true,&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;weighted&quot;:100,&quot;msgs&quot;:{&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgYouScore&quot;:&quot;Tu puntuación es&quot;,&quot;msgEndGameScore&quot;:&quot;Comience la partida antes de guardar la puntuación.&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgWeight&quot;:&quot;Peso&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Solo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Solo puede guardar una vez&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgUncompletedActivity&quot;:&quot;Actividad no completada&quot;,&quot;msgSuccessfulActivity&quot;:&quot;Actividad superada. Puntuación: %s&quot;,&quot;msgUnsuccessfulActivity&quot;:&quot;Actividad no superada. Puntuación: %s&quot;,&quot;msgPassScore&quot;:&quot;Puntuación mínima necesaria para aprobar esta actividad: %s&quot;,&quot;msgTypeGame&quot;:&quot;Formulario&quot;,&quot;msgStartGame&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTime&quot;:&quot;Tiempo por pregunta&quot;,&quot;msgSaveScore&quot;:&quot;Guardar la puntuación&quot;,&quot;msgResult&quot;:&quot;Resultado&quot;,&quot;msgCheck&quot;:&quot;Comprobar&quot;,&quot;msgReset&quot;:&quot;Reiniciar&quot;,&quot;msgShowAnswers&quot;:&quot;Mostrar respuestas&quot;,&quot;msgTestResultPass&quot;:&quot;¡Felicidades! Has pasado la prueba&quot;,&quot;msgTestResultNotPass&quot;:&quot;Lo siento. Has fallado la prueba&quot;,&quot;msgTrueFalseHelp&quot;:&quot;Di si la afirmación es verdadera o falsa&quot;,&quot;msgDropdownHelp&quot;:&quot;Elige la respuesta correcta entre las opciones propuestas&quot;,&quot;msgFillHelp&quot;:&quot;Rellena los espacios en blanco con la palabra apropiada&quot;,&quot;msgSingleSelectionHelp&quot;:&quot;Opción múltiple con solo una respuesta correcta&quot;,&quot;msgMultipleSelectionHelp&quot;:&quot;Opción múltiple con varias respuestas correctas&quot;,&quot;msgPlayStart&quot;:&quot;Pulsa aquí para empezar&quot;,&quot;msgTrue&quot;:&quot;Verdadero&quot;,&quot;msgFalse&quot;:&quot;Falso&quot;,&quot;msgNext&quot;:&quot;Siguiente&quot;,&quot;msgPrevious&quot;:&quot;Anterior&quot;,&quot;msgSuggestion&quot;:&quot;Sugerencia&quot;,&quot;msgOk&quot;:&quot;Correcto&quot;,&quot;msgKO&quot;:&quot;Incorrecto&quot;,&quot;msgHide&quot;:&quot;Ocultar&quot;},&quot;id&quot;:&quot;idevice-mvux20lo-2e3o3x1l3&quot;,&quot;questionsRandom&quot;:false,&quot;percentageQuestions&quot;:&quot;100&quot;,&quot;time&quot;:&quot;0&quot;,&quot;eXeFormInstructions&quot;:&quot;&lt;p&gt;Dados los planos \\(\\pi_1\\equiv 7x+2y-2z-1=0\\) y \\(\\pi_2\\equiv x+5y-4z-5=0\\)&lt;/p&gt;\n&lt;p&gt;El ángulo que forman es:&lt;/p&gt;&quot;,&quot;questionsData&quot;:[{&quot;id&quot;:&quot;1793533809982-G446O&quot;,&quot;activityType&quot;:&quot;selection&quot;,&quot;baseText&quot;:&quot;&quot;,&quot;feedbackRight&quot;:&quot;&quot;,&quot;feedbackWrong&quot;:&quot;&quot;,&quot;suggestion&quot;:&quot;&quot;,&quot;wrongAnswersValue&quot;:&quot;&quot;,&quot;selectionType&quot;:&quot;multiple&quot;,&quot;answers&quot;:[{&quot;0&quot;:true,&quot;1&quot;:&quot;\\(59,27 \\textdegree \\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(62,27\\textdegree \\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(52,52\\textdegree \\)&quot;},{&quot;0&quot;:false,&quot;1&quot;:&quot;\\(79,40\\textdegree \\)&quot;}],&quot;answer&quot;:&quot;1&quot;,&quot;capitalization&quot;:false,&quot;strict&quot;:false,&quot;order&quot;:0,&quot;customScore&quot;:1,&quot;time&quot;:0}],&quot;addBtnAnswers&quot;:true,&quot;eXeIdeviceTextAfter&quot;:&quot;&quot;,&quot;showSlider&quot;:false}" data-idevice-template="form.html">
+<div class="exe-form-container">
+  <div class="game-evaluation-ids js-hidden" data-id="idevice-mvux20lo-2e3o3x1l3" data-evaluationb="false" data-evaluationid=""></div>
+            <div id="frmMainContainer-idevice-mvux20lo-2e3o3x1l3" class="form-IDevice" data-id="idevice-mvux20lo-2e3o3x1l3">
+                <div class="form-Data js-hidden">{}</div>
+                <div class="form-instructions"><p>Dados los planos \(\pi_1\equiv 7x+2y-2z-1=0\) y \(\pi_2\equiv x+5y-4z-5=0\)</p>
+<p>El ángulo que forman es:</p></div>
+                <div class="FRMP-GameScoreBoard" style="display:none;">
+                    <div>
+                        <strong><span class="sr-av">Tiempo por pregunta:</span></strong>
+                        <span id="frmPTime-idevice-mvux20lo-2e3o3x1l3">00:00</span>
+                    </div>
+                </div>
+                <div class="FRMP-StartGame" id="frmStartGameDiv-idevice-mvux20lo-2e3o3x1l3" style="display:none;">
+                      <button  id="frmStartGame-idevice-mvux20lo-2e3o3x1l3" type="button" class="btn btn-primary">Pulsa aquí para empezar</button>
+                </div>
+                <div class="form-body" id="frmBody-idevice-mvux20lo-2e3o3x1l3" style="display:block;">
+                    <div class="FRMP-Questions">
+                        <div id="form-questions-idevice-mvux20lo-2e3o3x1l3" > </div>
+                        <div id="frmCover-idevice-mvux20lo-2e3o3x1l3" class="FRMP-Cover"> </div>
+                    </div>
+                    <div id="resultsContainer-idevice-mvux20lo-2e3o3x1l3" class="form-results-container inline">
+                        <div id="form-score-idevice-mvux20lo-2e3o3x1l3" class="score-text">Puntuación.</div>
+                        <div id="form-result-test-idevice-mvux20lo-2e3o3x1l3" class="score-text phrase-score"></div>
+                    </div>
+                    <div class="form-buttons-container inline">
+                        <input id="form-button-check-idevice-mvux20lo-2e3o3x1l3" class="btn btn-primary" type="button" value="Comprobar"
+                            data-id="idevice-mvux20lo-2e3o3x1l3" />
+                        <input id="form-button-reset-idevice-mvux20lo-2e3o3x1l3" type="button" value="Reiniciar"
+                            data-id="idevice-mvux20lo-2e3o3x1l3" class="btn btn-primary"  style="display:none" />
+                        <input id="form-button-show-answers-idevice-mvux20lo-2e3o3x1l3" class="btn btn-primary" type="button" value="Mostrar respuestas"
+                            data-id="idevice-mvux20lo-2e3o3x1l3" style="display: " />
+
+                    </div>
+                </div>
+                <div class="Games-BottonContainer d-flex align-items-center justify-content-end mx-auto p-0 w-100"></div>
+                
+            </div>
+            <div class="questionsMedia" style="display:none"></div>
+            
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/31-angulo-comprendido-entre-dos-rectas.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
+<a href="../html/33-angulo-entre-una-recta-y-un-plano.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-nc-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="license">Creative Commons: Reconocimiento - no comercial - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(Ventana nueva)</span></span></a></p>
+</body>
+</html>
